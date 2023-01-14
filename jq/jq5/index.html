@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="popup" id="popup1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="closebtn" onclick="togglePopup()">&times;</div>
+            <h1 id="popuptext">I Am Popup</h1>
+        </div>
+    </div>
+    <header id="head" onclick="togglePopup()">
+        Header
+    </header>
+    <div class="first">
+        <p class="f1">Sidebar</p>
+    </div>
+    <div class="second">
+        <p class="f2">Main Content</p>
+    </div>
+    <div class="third">
+        <p class="f3">Extra Content</p>
+    </div>
+    <footer>
+        Footer
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

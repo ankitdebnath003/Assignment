@@ -1,0 +1,32 @@
+body {
+    margin: 20px;
+}
+
+header {
+    background-color: #ff4da6;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+footer {
+    background-color: #802755;
+    margin-bottom: 20px;
+    height: 100px;
+    clear: both;
+}
+
+.leftcolumn {
+    background-color: #ff037e;
+    float: left;
+    width: 60%;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+.rightcolumn {
+    background-color: #ff037e;
+    float: right;
+    width: 39%;
+    margin-bottom: 20px;
+    height: 300px;
+}

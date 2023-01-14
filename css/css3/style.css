@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h2,
+h4 {
+    color: white;
+}
+
+.left p,
+h4 {
+    font-size: 20px;
+}
+
+h4 {
+    padding: 50px 50px 10px;
+}
+
+.box2 p {
+    padding: 20px 50px 10px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+body {
+    background: red;
+}
+
+.box1 {
+    padding: 50px 80px 0;
+    width: auto;
+    height: 325px;
+}
+
+.left {
+    float: left;
+    width: 60%;
+    padding-top: 50px;
+}
+
+.right {
+    float: right;
+    width: 40%;
+}
+
+.first {
+    float: left;
+    width: 33%;
+    margin-right: 6px;
+}
+
+.second {
+    float: left;
+    width: 33%;
+}
+
+.third {
+    float: right;
+    width: 33%;
+}
+
+.same {
+    background-color: #571212;
+    height: 292px;
+}
